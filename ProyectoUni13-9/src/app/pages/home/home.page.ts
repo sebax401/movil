@@ -22,7 +22,6 @@ export class HomePage {
   constructor(public alertController:AlertController,
               private activatedRoute: ActivatedRoute,
               private router : Router, private animationController: AnimationController,) {
-    //recibo el parámetro y lo asigno a una variable que pueda recibir el valor
     this.activatedRoute.queryParams.subscribe(params =>{
       if(this.router.getCurrentNavigation()?.extras.state){
         this.login = this.router.getCurrentNavigation()?.extras?.state?.['login']; 
