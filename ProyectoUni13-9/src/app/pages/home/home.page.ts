@@ -49,11 +49,11 @@ export class HomePage {
     .duration(6000)
     .iterations(Infinity)
     .keyframes([
-      { offset: 0, background: 'yellow' },
-      { offset: 0.25,  background: 'var (--background)'},
-      { offset: 0.5, background: 'green' },
-      { offset: 0.75,  background: 'var (--background)'},
-      { offset: 1, background: 'yellow' }
+      { offset: 0, color: 'red' },
+      { offset: 0.25,  color: 'var (--color)'},
+      { offset: 0.5, color: 'blue' },
+      { offset: 0.75,  color: 'var (--color)'},
+      { offset: 1, color: 'red' }
     ]);
 
   
