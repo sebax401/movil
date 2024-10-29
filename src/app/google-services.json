@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178246978287",
+    "project_id": "friends4life-94b1c",
+    "storage_bucket": "friends4life-94b1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178246978287:android:e9eced14504468910d691a",
+        "android_client_info": {
+          "package_name": "friends4Life_401.proyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYpp4uTgePPMVlerBfAEHs0SUyRsYIQQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
